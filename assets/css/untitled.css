@@ -1,0 +1,29 @@
+@media (min-width:992px) {
+  .navbar-expand-lg {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+}
+
+.nav-item {
+  font-size: 11px;
+}
+
+@media (min-width:576px) {
+  .navbar {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    max-height: 200px;
+  }
+}
+
+.navbar-expand-lg {
+  background-color: black;
+}
+
+.galerie { 
+	margin: 15px;
+}
+
